@@ -49,23 +49,65 @@ a:active {
     color: inherit;
 }
 
-/* Desktop */
-nav {
-    height: 120px;
-    position: sticky;
-    top: 0px;
-    display: flex;
-}
-nav > menu > li {
-    font-weight: 800;
-    font-size: 32px;
+/* Desktop Nav */
+@media (min-width: 768px) {
+    nav {
+        height: 120px;
+        position: sticky;
+        top: 0px;
+        display: flex;
+    }
+    nav > menu > li {
+        font-weight: 800;
+        font-size: 32px;
 
+    }
+    menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+        padding-left: 30px;
+    }
 }
-menu {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-    padding-left: 30px;
+/* Mobile Nav */
+@media (max-width: 768px) {
+
+    nav {
+            height: 120px;
+            position: sticky;
+            top: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+    }
+
+    nav>menu>li {
+        font-weight: 800;
+        font-size: 25px;
+
+    }
+
+    menu {
+        width: 40%;
+        position: absolute;
+        right: 0px;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        padding-left: 30px;
+    }
+    .menu__mobile__hamburguer {
+        height: 18px;
+        width: 26px;
+        margin-right: 20px;
+        background: url(../assets/images/icons/icon_hamburguer.png);
+        border-style: none;
+
+
+    }
 }

@@ -21,6 +21,7 @@
     padding: 5px;
     position: relative;
     transform: scale(1.5);
+    cursor: pointer;
 }
 
 .ball {
@@ -49,4 +50,11 @@
 }
 .checkbox__moon, .checkbox__sun {
     height: 15px;
+}
+@media (max-width: 768px) {
+
+    .checkbox__container {
+        display: none;
+    }
+
 }
