@@ -48,8 +48,9 @@
         justify-content: flex-start;
         align-items: flex-start;
 
-        width: 40%;
-        min-height: 500px;
+        width: 50%;
+        min-height: 100vh;
+
     }
 
     .menu__mobile__hamburguer {
@@ -62,20 +63,15 @@
         z-index: 1;
 
     }
+    .menu__mobile__hamburguer.dark {
+        color: white;
+    }
 
 
 }
 
 /* =============== DESKTOP ===============*/
 @media (min-width: 769px) {
-
-    /* Overlay */
-
-    .nav__itembg {
-        position: absolute;
-        top: 37px;
-        z-index: -1;
-    }
 
     .nav__list ul {
         display: flex;
@@ -145,7 +141,8 @@
 
     nav {
         height: 120px;
-        position: sticky;
+        width: 100%;
+        position: fixed;
         top: 0px;
         display: flex;
         -webkit-backdrop-filter: blur(5px);
