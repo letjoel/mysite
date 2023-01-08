@@ -15,6 +15,18 @@ const projectLaunchButtons = document.querySelectorAll('.project__header__links_
 const projectTechnologies = document.querySelectorAll('.project__footer__techs');
 const imgJoel = document.querySelector('.presentation__img');
 const imgJoelMobile = document.querySelector('.presentation__img__mobile');
+const footer = document.querySelector('footer');
+const overlayRight = document.querySelector('.overlayRight');
+const overlayLeft = document.querySelector('.overlayLeft');
+const overlayContainerBg = document.querySelector('.overlayRight__container');
+const overlayContainerBgLeft = document.querySelector('.overlayLeft__container');
+const goBackProfileButton = document.querySelector('#overlayRight__button_container__button_back');
+const goBackSkillsButton = document.querySelector('#overlayLeft__button_container__button_back');
+const skillsContainer = document.querySelector('.overlayLeft__container__text');
+const profileContainer = document.querySelector('.overlayRight__container_text');
+
+
+
 
 //Vars
 let isDark = false;
@@ -22,6 +34,26 @@ let isDark = false;
 //Listeners
 hamburguerIcon.addEventListener('click', ()=>{
     menu.classList.toggle("menu__mobile__show");
+})
+addButtonAboutme.addEventListener('click', ()=>{
+    overlayRight.classList.toggle('activate');
+    addButtonAboutme.classList.toggle('clicked');
+    profileContainer.classList.add('fade-in');
+})
+goBackProfileButton.addEventListener('click', ()=>{
+    overlayRight.classList.toggle('activate');
+    addButtonAboutme.classList.toggle('clicked');
+    
+})
+addButtonSkillSet.addEventListener('click', ()=>{
+    overlayLeft.classList.toggle('activate');
+    addButtonSkillSet.classList.toggle('clicked');
+    skillsContainer.classList.add('fade-in');
+})
+goBackSkillsButton.addEventListener('click', ()=>{
+    overlayLeft.classList.toggle('activate');
+    addButtonSkillSet.classList.toggle('clicked');
+    
 })
 
 //Detect Browser Theme and change Automatically
@@ -64,7 +96,12 @@ function darkSwitcher(isDark) {
             value.classList.toggle('dark');
         });   
     })
+    footer.classList.toggle('dark');
+    goBackProfileButton.classList.toggle('dark');
+    overlayContainerBg.classList.toggle('dark');
+    overlayContainerBgLeft.classList.toggle('dark');
 
+    
     if (isDark) {  
         imgJoel.src = 'assets/images/joel_dark.png';  
     }else {

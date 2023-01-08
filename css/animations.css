@@ -1,3 +1,98 @@
+/* About me buttons */
+
+#about__skill-set.clicked {
+    animation-duration: 1.3s;
+    animation-name: fadeAndScale;
+    animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
+}
+#about__more-about-me.clicked {
+    animation-duration: 1.3s;
+    animation-name: fadeAndScale;
+    animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
+
+}
+@keyframes fadeAndScale {
+    from {
+        
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+
+    to {
+        rotate: 45deg;
+        opacity: 0;
+        transform: scale(10, 10);
+    }
+}
+
+
+
+/* Overlay About me section */
+.overlayRight {
+    display: none;
+    z-index: 400;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0;
+    animation-name: fillFromSide;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+.overlayRight.activate {
+    display: block;
+}
+.overlayLeft {
+    display: none;
+    z-index: 400;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 0;
+    animation-name: fillFromSide;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+.overlayLeft.activate {
+    display: block;
+}
+
+
+@keyframes fillFromSide {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+/* Fade in */
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
 
 /* ========= Project border on hover =========*/
 
