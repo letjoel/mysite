@@ -9,7 +9,6 @@
     animation-duration: 1.3s;
     animation-name: fadeAndScale;
     animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
-
 }
 @keyframes fadeAndScale {
     from {
@@ -24,7 +23,6 @@
         transform: scale(10, 10);
     }
 }
-
 
 
 /* Overlay About me section */
@@ -58,7 +56,6 @@
 .overlayLeft.activate {
     display: block;
 }
-
 
 @keyframes fillFromSide {
     from {

@@ -1,31 +1,15 @@
 //Selectors
-const hamburguerIcon = document.querySelector('.menu__mobile__hamburguer');
-const menu = document.querySelector('menu');
-const aboutme = document.querySelector('#about');
-const contactme = document.querySelector('#contactme');
-const projects = document.querySelectorAll('.project');
-const inputName = document.querySelector('form').children[0];
-const inputEmail = document.querySelector('form').children[1];
-const inputTextarea = document.querySelector('form').children[2];
-const addButtonAboutme = document.querySelector('#about__more-about-me');
-const addButtonSkillSet = document.querySelector('#about__skill-set');
-const penButton = document.querySelector('.portfolio__heading img');
-const projectGitButtons = document.querySelectorAll('.project__header__links__git');
-const projectLaunchButtons = document.querySelectorAll('.project__header__links__launch');
-const projectTechnologies = document.querySelectorAll('.project__footer__techs');
-const imgJoel = document.querySelector('.presentation__img');
-const imgJoelMobile = document.querySelector('.presentation__img__mobile');
-const footer = document.querySelector('footer');
-const overlayRight = document.querySelector('.overlayRight');
-const overlayLeft = document.querySelector('.overlayLeft');
-const overlayContainerBg = document.querySelector('.overlayRight__container');
-const overlayContainerBgLeft = document.querySelector('.overlayLeft__container');
-const goBackProfileButton = document.querySelector('#overlayRight__button_container__button_back');
-const goBackSkillsButton = document.querySelector('#overlayLeft__button_container__button_back');
-const skillsContainer = document.querySelector('.overlayLeft__container__text');
-const profileContainer = document.querySelector('.overlayRight__container_text');
-
-
+    const hamburguerIcon = document.querySelector('.menu__mobile__hamburguer');
+    const menu = document.querySelector('menu');
+    const addButtonAboutme = document.querySelector('#about__more-about-me');
+    const addButtonSkillSet = document.querySelector('#about__skill-set');
+    const imgJoel = document.querySelector('.presentation__img');
+    const overlayRight = document.querySelector('.overlayRight');
+    const overlayLeft = document.querySelector('.overlayLeft');
+    const goBackProfileButton = document.querySelector('#overlayRight__button_container__button_back');
+    const goBackSkillsButton = document.querySelector('#overlayLeft__button_container__button_back');
+    const skillsContainer = document.querySelector('.overlayLeft__container__text');
+    const profileContainer = document.querySelector('.overlayRight__container_text');
 
 
 //Vars
@@ -70,8 +54,28 @@ checkbox.addEventListener('change', ()=>{
     darkSwitcher(isDark);
 })
 
+//Functions
 function darkSwitcher(isDark) {
     
+    const hamburguerIcon = document.querySelector('.menu__mobile__hamburguer');
+    const aboutme = document.querySelector('#about');
+    const contactme = document.querySelector('#contactme');
+    const projects = document.querySelectorAll('.project');
+    const inputName = document.querySelector('form').children[0];
+    const inputEmail = document.querySelector('form').children[1];
+    const inputTextarea = document.querySelector('form').children[2];
+    const addButtonAboutme = document.querySelector('#about__more-about-me');
+    const addButtonSkillSet = document.querySelector('#about__skill-set');
+    const penButton = document.querySelector('.portfolio__heading img');
+    const projectGitButtons = document.querySelectorAll('.project__header__links__git');
+    const projectLaunchButtons = document.querySelectorAll('.project__header__links__launch');
+    const projectTechnologies = document.querySelectorAll('.project__footer__techs');
+    const footer = document.querySelector('footer');
+    const overlayContainerBg = document.querySelector('.overlayRight__container');
+    const overlayContainerBgLeft = document.querySelector('.overlayLeft__container');
+    const goBackProfileButton = document.querySelector('#overlayRight__button_container__button_back');
+
+
     document.body.classList.toggle('dark');
     hamburguerIcon.classList.toggle('dark');    
     aboutme.classList.toggle('dark');    
@@ -104,9 +108,23 @@ function darkSwitcher(isDark) {
     
     if (isDark) {  
         imgJoel.src = 'assets/images/joel_dark.png';  
+        projectGitButtons.forEach(button => {
+            button.classList.toggle('dark');
+        })          
+        projectLaunchButtons.forEach(button => {
+            button.classList.toggle('dark');
+        })    
     }else {
         imgJoel.src = 'assets/images/joel.png';
+        projectGitButtons.forEach(button => {
+            button.classList.toggle('dark');
+        })  
+        projectLaunchButtons.forEach(button => {
+            button.classList.toggle('dark');
+        })              
     }
     
 
 }
+
+export {isDark, darkSwitcher}; 
