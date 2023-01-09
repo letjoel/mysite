@@ -122,7 +122,9 @@ function techToImg(technology){
                 break;
         case 'UNITY': techToImg = '<img src="assets/images/icons_svg/icon_unity_.svg" alt="Unity3d">';
                 break;
-    
+        case 'WORDPRESS': techToImg = '<img src="assets/images/icons_svg/icon_wordpress_.svg" alt="Wordpress">';
+        break;
+
         default:
             break;
     }
