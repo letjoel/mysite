@@ -49,7 +49,7 @@ const renderProject = (project) => {
                 <div class="project__footer">
                     <p>${description}</p>
                     <div class="project__footer__techs">
-                         ${techsImgArray}
+                         ${techsImgArray.join(' ')}
                     </div>
                 </div>
             </div>

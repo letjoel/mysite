@@ -937,5 +937,20 @@ a:active {
         width: 75%;
         max-width: 1200px;
     }
+    .about__container__aboutme>p {
+        font-size: var(--text-fontsize-ml);
+        padding-top: var(--padding-normal);
+    }
+    .about__container__inmybackpack>ul {
+        font-size: var(--text-fontsize-ml);
+        padding-top: 3.125rem;
+        list-style-type: '✓ ';
+    }
+    .about__container__aboutme>div>p {
+        font-size: var(--text-fontsize-ml);
+    }
+    .about__container__inmybackpack>div>p {
+        font-size: var(--text-fontsize-ml);
+    }
 
 }
