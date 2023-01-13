@@ -10,7 +10,12 @@
     const goBackSkillsButton = document.querySelector('#overlayLeft__button_container__button_back');
     const skillsContainer = document.querySelector('.overlayLeft__container__text');
     const profileContainer = document.querySelector('.overlayRight__container_text');
-
+    const navLinks = document.querySelectorAll('.nav__ul > li > a')
+    navLinks.forEach((a)=>{
+        a.addEventListener('click', ()=>{
+            menu.classList.toggle("menu__mobile__show");
+        })
+    });
 
 //Vars
 let isDark = false;
