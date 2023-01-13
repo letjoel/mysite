@@ -16,7 +16,7 @@ const callApi = async () => {
     } 
 }
 
-callApi()
+document.addEventListener('DOMContentLoaded',callApi);
 
 
 const renderProject = (project) => {
