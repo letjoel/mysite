@@ -28,7 +28,7 @@
         list-style-type: none;
     }
 
-    menu {
+    .nav__list {
         display: none;
     }
 
@@ -152,7 +152,8 @@
         font-size: 28px;
     }
 
-    menu {
+    /* MENU */
+    .nav__list {
         width: 100%;
         display: flex;
         justify-content: flex-start;

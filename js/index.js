@@ -1,6 +1,6 @@
 //Selectors
     const hamburguerIcon = document.querySelector('.menu__mobile__hamburguer');
-    const menu = document.querySelector('menu');
+    const menu = document.querySelector('.nav__list');
     const addButtonAboutme = document.querySelector('#about__more-about-me');
     const addButtonSkillSet = document.querySelector('#about__skill-set');
     const imgJoel = document.querySelector('.presentation__img');
