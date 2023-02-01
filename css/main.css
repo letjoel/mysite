@@ -647,7 +647,6 @@ a:hover {
     .overlayRight__container.dark {
         background-color: var(--dark-about-bg-color);
     }
-
     .overlayRight__container_text {
         width: 100%;
         height: 100%;
@@ -655,29 +654,23 @@ a:hover {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-
     }
-
     .overlayRight__container__highlights {
         width: 100%;
         display: flex;
         justify-content: center;
 
     }
-
     .overlayRight__container__highlights ul {
         list-style-type: none;
     }
-
+    .overlayRight__container__profile {
+        width: 100%;
+        padding-right: 30px;
+    }
     .overlayRight__container__profile h1 {
         font-size: var(--text-fontsize-ml);
         font-weight: 800;
-    }
-
-    .overlayRight__container__profile {
-        width: 100%;
-
-
     }
 
     .overlayRight__button_container {
@@ -686,7 +679,6 @@ a:hover {
         width: 100%;
         height: 3.125rem;
     }
-
     .overlayRight__button_container>button {
         background-image: url(../assets/images/icons_svg/remove_circle_outline.svg);
         background-size: 3.125rem;
