@@ -124,7 +124,7 @@ function techToImg(technology){
                 break;
         case 'WORDPRESS': techToImg = '<img src="assets/images/icons_svg/icon_wordpress_.svg" alt="Wordpress">';
                 break;
-        case 'MATERIALUI': techToImg = '<img src="assets/images/icons_svg/icon_materialui_.svg" alt="Material UI">';
+        case 'MATERIALUI': techToImg = '<img src="assets/images/icons_svg/icon_materialui.svg" alt="Material UI">';
                 break;    
         case 'STYLEDCOMPONENTS': techToImg = '<img src="assets/images/icons_svg/icon_styledcomponents.svg" alt="Styled Components">';
                 break;          
