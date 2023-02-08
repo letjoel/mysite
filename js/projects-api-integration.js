@@ -114,7 +114,7 @@ function techToImg(technology){
                 break;
         case 'SOCKETIO': techToImg = '<img src="assets/images/icons_svg/icon_socket%20dot%20io_.svg" alt="Socket io">';
                 break;
-        case 'TAILWIN': techToImg = '<img src="assets/images/icons_svg/icon_tailwindcss_.svg" alt="Socket io">';
+        case 'TAILWIND': techToImg = '<img src="assets/images/icons_svg/icon_tailwindcss_.svg" alt="Socket io">';
                 break;
         case 'TYPESCRIPT': techToImg = '<img src="assets/images/icons_svg/icon_typescript_.svg" alt="TypeScript">';
                 break;
@@ -123,7 +123,13 @@ function techToImg(technology){
         case 'UNITY': techToImg = '<img src="assets/images/icons_svg/icon_unity_.svg" alt="Unity3d">';
                 break;
         case 'WORDPRESS': techToImg = '<img src="assets/images/icons_svg/icon_wordpress_.svg" alt="Wordpress">';
-        break;
+                break;
+        case 'MATERIALUI': techToImg = '<img src="assets/images/icons_svg/icon_materialui_.svg" alt="Material UI">';
+                break;    
+        case 'STYLEDCOMPONENTS': techToImg = '<img src="assets/images/icons_svg/icon_styledcomponents.svg" alt="Styled Components">';
+                break;          
+        case 'DOCKER': techToImg = '<img src="assets/images/icons_svg/icon_docker.svg.svg" alt="Docker">';
+                break;                                     
 
         default:
             break;
