@@ -55,7 +55,7 @@ const renderProject = (project) => {
             </div>
     `;
 
-    projectsContainer.appendChild(divProjectContainer);
+    projectsContainer.insertBefore(divProjectContainer,projectsContainer.firstChild);
 
 }
 const cleanProjects = ()=>{
