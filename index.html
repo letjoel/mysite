@@ -196,11 +196,13 @@
             <h1>// Contact me</h1>
         </div>
         <div class="contactme__form">
-            <form id="contact-form">
-                <input required type="text" name="user_name" placeholder="name">
-                <input required type="email" name="user_email" size="" placeholder="email">
+            <form id="contact-form" action="https://formsubmit.co/3210a9e9802f1123fd879675c254e051" method="POST">
+                <input required type="text" name="name" placeholder="name">
+                <input required type="email" name="email" size="" placeholder="email">
                 <textarea required name="message" cols="30" rows="5" placeholder="message"></textarea>
                 <input type="submit" value="send">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://elniu.dev/thanks.html">
             </form>
         </div>
     </section>
@@ -216,7 +218,7 @@
                 </li>
                 <li><a href="https://api.whatsapp.com/send?phone=34650723783"><img
                             src="assets/images/icons/whatsapp.png" alt="whatsapp link"></a></li>
-                <li><a href="mailto:joelv2@gmail.com"><img src="assets/images/icons/email.png" alt="mail link"></a></li>
+                <li><a href="mailto:joel@elniu.dev"><img src="assets/images/icons/email.png" alt="mail link"></a></li>
 
             </ul>
 

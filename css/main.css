@@ -82,6 +82,10 @@ a:hover {
     color: var(--orangine);
 }
 
+.thanks{
+    margin: 150px;
+}
+
 
 /* =============== MOBILE < 480px ===============*/
 
