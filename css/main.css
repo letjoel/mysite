@@ -450,7 +450,9 @@ a:hover {
         justify-content: center;
         gap: var(--padding-small);
         height: 100%;
-
+    }
+    .footer__container__contact>ul>li {
+        list-style-type: none
     }
     .footer__container__contact>ul>li>a>img {
         transition: all .2s ease-in-out;
