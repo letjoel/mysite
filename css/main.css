@@ -85,7 +85,9 @@ a:hover {
 .thanks{
     margin: 150px;
 }
-
+.thanks-image{
+    height: 300px;
+}
 
 /* =============== MOBILE < 480px ===============*/
 
