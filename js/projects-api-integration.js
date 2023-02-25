@@ -1,19 +1,29 @@
 import {isDark} from './index.js';
+import {localData} from "../data/data.js";
+
+const render = (data) => {
+        cleanProjects();
+        data.projects.forEach((project) => {
+                renderProject(project);
+        })
+        refreshDark();
+}
 
 
 const callApi = async () => {
     try {
         const respuesta = await fetch('https://api-rest-portfolio.up.railway.app/portfolio/projects')
         const data =  await respuesta.json()
-        cleanProjects();
-        data.projects.forEach((project) => {
-            renderProject(project);
-        })
-        refreshDark();
+         render(data);
     
     } catch (error) {
         console.log(error);
+        callJson();
     } 
+}
+
+const callJson = () => {
+        render(localData);
 }
 
 document.addEventListener('DOMContentLoaded',callApi);
