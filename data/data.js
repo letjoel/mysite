@@ -133,6 +133,16 @@ export const localData = {
       technologies: ["REACT", "TYPESCRIPT", "CSS", "MATERIALUI"],
       image: "https://elniu.dev/assets/images/projects/project12-duo-yellow.png",
 
+    },
+    { 
+      _id:"13",          
+      "name": "Real Dream Voices",
+      "displayName": "Real Dream Voices",
+      "description": "Marketplace created with React",
+      "url": "https://realdreamvoices.vercel.app/",
+      "repositoryUrl": "https://github.com/24teamhackaton/marketplace",
+      "technologies": ["REACT", "CSS"],
+      "image": "https://elniu.dev/assets/images/projects/project13-duo-yellow.png"
     }
   ]
 }
