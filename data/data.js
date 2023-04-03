@@ -42,16 +42,6 @@ export const localData = {
     },
     {
       _id:"5",
-      name: "InfoAD",
-      displayName: "InfoAD",
-      description: "Daily activity report for a PSAP. App connected to a DB. User authentification. Queries by date and file export. ",
-      url: "https://infoad.up.railway.app/",
-      repositoryUrl: "https://github.com/letjoel/infoAD",
-      technologies: ["HTML", "CSS", "PHP", "MYSQL"],
-      image: "https://elniu.dev/assets/images/projects/project4-duo-yellow.png",
-    },
-    {
-      _id:"6",
       name: "Ecommerce",
       displayName: "Ecommerce",
       description: "Marketplace with a functional javascript shopping cart.",
@@ -61,7 +51,7 @@ export const localData = {
       image: "https://elniu.dev/assets/images/projects/project5-duo-yellow.png",
     },
     {
-      _id:"7",
+      _id:"6",
       name: "Wheel of doom",
       displayName: "Wheel of doom",
       description: "A game to randomly duel against a list of enemies. It uses localstorage.",
@@ -71,7 +61,7 @@ export const localData = {
       image: "https://elniu.dev/assets/images/projects/project6-duo-yellow.png",
     },
     {
-      _id:"8",
+      _id:"7",
       name: "Hotel",
       displayName: "Hotel",
       description: "Guest house wordpress site with owned custom booking system.",
@@ -81,7 +71,7 @@ export const localData = {
       image: "https://elniu.dev/assets/images/projects/project7-duo-yellow.png",
     },
     {
-      _id:"9",
+      _id:"8",
       name: "Chat",
       displayName: "Chat",
       description: "Chat using socket.io and express.",
@@ -92,7 +82,7 @@ export const localData = {
 
     },
     {
-      _id:"10",
+      _id:"9",
       name: "Portfolio",
       displayName: "Portfolio",
       description: "Made with vanilla javascript and express.js, API endpoint connected to a MongoDB from where the project list is rendered. ",
@@ -103,7 +93,7 @@ export const localData = {
 
     },
     {
-      _id:"11",
+      _id:"10",
       name: "Rest API",
       displayName: "Rest API",
       description: "API developed with NestJs, TypeScript, Swagger and MongoDB. User auth by roles and custom decorators.",
@@ -114,7 +104,7 @@ export const localData = {
    
     },
     {
-      _id:"12",
+      _id:"11",
       name: "React to do",
       displayName: "React to do",
       description: "Single page app (SAP) developed with ReactJs. ",
@@ -124,7 +114,7 @@ export const localData = {
       image: "https://elniu.dev/assets/images/projects/project11-duo-yellow.png",
     },
     {
-      _id:"13",
+      _id:"12",
       name: "React Soundwave",
       displayName: "React Soundwave",
       description: "React SPA styled with css modules and Material UI. Mockup layout provided.",
