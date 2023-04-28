@@ -133,6 +133,16 @@ export const localData = {
       "repositoryUrl": "https://github.com/24teamhackaton/marketplace",
       "technologies": ["REACT", "CSS"],
       "image": "https://elniu.dev/assets/images/projects/project13-duo-yellow.png"
+    },
+    { 
+      _id:"14",  
+      "name": "Imagine",
+      "displayName": "Imagine",
+      "description": "React App to upload and edit your favourite images. Backend with API Rest and MongoDB.",
+      "url": "https://imagineation.netlify.app/",
+      "repositoryUrl": "https://github.com/letjoel/front-myimages#readme",
+      "technologies": ["REACT", "NESTJS", "TYPESCRIPT","MONGODB", "CSS"],
+      "image": "https://elniu.dev/assets/images/projects/project2-duo-yellow.png"
     }
   ]
 }
