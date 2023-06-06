@@ -172,5 +172,18 @@ export const localData = {
       image:
         "https://elniu.dev/assets/images/projects/project15-duo-yellow.png",
     },
+    {
+      _id: "16",
+      name: "Recette Social App",
+      displayName: "Recette Social App",
+      description:
+        "Social app for sharing recipes and making friends. React, TailwindCSS, Nest, MongoDB.",
+      url: "https://recettesocial.vercel.app/",
+      repositoryUrl:
+        "https://github.com/letjoel/front-recette-social-bonappetit#readme",
+      technologies: ["REACT", "TAILWIND", "NESTJS", "TYPESCRIPT", "MONGODB"],
+      image:
+        "https://elniu.dev/assets/images/projects/project16-duo-yellow.png",
+    },
   ],
 };
