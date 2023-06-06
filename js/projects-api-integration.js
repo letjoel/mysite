@@ -13,7 +13,7 @@ const render = (data) => {
 const callApi = async () => {
   try {
     const respuesta = await fetch(
-      "https://api-rest-portfolio.up.railway.app/portfolio/projects"
+      "https://portfolio-ygjf.onrender.com/portfolio/projects"
     );
     const data = await respuesta.json();
     render(data);
