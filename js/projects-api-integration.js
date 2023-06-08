@@ -27,7 +27,8 @@ const callJson = () => {
   render(localData);
 };
 
-document.addEventListener("DOMContentLoaded", callApi);
+// Switch callApi() or callJson()
+document.addEventListener("DOMContentLoaded", callJson);
 
 const renderProject = (project) => {
   const {
