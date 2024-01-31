@@ -38,8 +38,8 @@ export const localData = {
       displayName: "InfoAD",
       description:
         "Daily activity report for a PSAP. It's made with PHP, MYSQL and HTML/CSS.",
-      url: "https://infoad.up.railway.app/",
-      repositoryUrl: "https://github.com/letjoel/infoAD",
+      url: "",
+      repositoryUrl: "",
       technologies: ["HTML", "CSS", "PHP", "MYSQL"],
       image: "/assets/images/projects/project4-duo-yellow.png",
     },
@@ -70,7 +70,7 @@ export const localData = {
       description:
         "Guest house wordpress site with owned custom booking system.",
       url: "https://casaruralahora.com",
-      repositoryUrl: "#",
+      repositoryUrl: "",
       technologies: ["HTML", "CSS", "WORDPRESS", "PHP"],
       image: "/assets/images/projects/project7-duo-yellow.png",
     },
@@ -79,7 +79,7 @@ export const localData = {
       name: "Chat",
       displayName: "Chat",
       description: "Chat using socket.io and express.",
-      url: "https://chat-socketio.up.railway.app/",
+      url: "",
       repositoryUrl: "https://github.com/letjoel/chat-socketio",
       technologies: ["SOCKETIO", "NODEJS", "HTML", "CSS"],
       image: "/assets/images/projects/project8-duo-yellow.png",
@@ -101,7 +101,7 @@ export const localData = {
       displayName: "Rest API",
       description:
         "API developed with NestJs, TypeScript, Swagger and MongoDB.",
-      url: "https://blackbackersrecette.up.railway.app/",
+      url: "",
       repositoryUrl: "https://github.com/letjoel/api_social-recipies",
       technologies: ["NESTJS", "TYPESCRIPT", "MONGODB"],
       image: "/assets/images/projects/project10-duo-yellow.png",

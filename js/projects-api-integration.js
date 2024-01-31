@@ -47,6 +47,28 @@ const renderProject = (project) => {
     techsImgArray.push(imgString);
   });
 
+  // Repository image link render
+  let repositoryImg = "";
+  if (
+    repositoryUrl === "" ||
+    repositoryUrl === null ||
+    repositoryUrl === undefined
+  ) {
+    repositoryImg = "";
+  } else {
+    repositoryImg = `<a href="${repositoryUrl}" target="_blank"><img class="project__header__links__git"
+                                src="assets/images/icons_svg/icon_github.svg" alt="github repository"></a>`;
+  }
+
+  // Deploy image link render
+  let deployImg = "";
+  if (url === "" || url === null || url === undefined) {
+    deployImg = "";
+  } else {
+    deployImg = `<a href="${url}" target="_blank"><img class="project__header__links__launch"
+                                src="assets/images/icons_svg/launch.svg" alt="project view"></a>`;
+  }
+
   const projectsContainer = document.querySelector(".projects__container");
   const divProjectContainer = document.createElement("div");
   divProjectContainer.innerHTML = `
@@ -57,10 +79,8 @@ const renderProject = (project) => {
                         <h1>${displayName}</h1>
                     </div>
                     <div class="project__header__links">
-                        <a href="${repositoryUrl}" target="_blank"><img class="project__header__links__git"
-                                src="assets/images/icons_svg/icon_github.svg" alt="github repository"></a>
-                        <a href="${url}" target="_blank"><img class="project__header__links__launch" src="assets/images/icons_svg/launch.svg"
-                                alt="project view"></a>
+                        ${repositoryImg}
+                        ${deployImg}
                     </div>
                 </div>
                 <a class="project__img__filter" href="${url}" target="_blank"><img src="${image}"
