@@ -9,7 +9,7 @@ export const localData = {
       url: "https://elniu.dev/frontend/whiteboard/",
       repositoryUrl: "https://github.com/letjoel/kanbanboard",
       technologies: ["HTML", "CSS", "JS"],
-      image: "https://elniu.dev/assets/images/projects/project1-duo-yellow.png",
+      image: "/assets/images/projects/project1-duo-yellow.png",
     },
     {
       _id: "2",
@@ -19,7 +19,7 @@ export const localData = {
       url: "https://elniu.dev/frontend/barcelonafc/",
       repositoryUrl: "https://github.com/letjoel/barcelonafc",
       technologies: ["HTML", "CSS", "JS"],
-      image: "https://elniu.dev/assets/images/projects/project2-duo-yellow.png",
+      image: "/assets/images/projects/project2-duo-yellow.png",
     },
     {
       _id: "3",
@@ -30,18 +30,18 @@ export const localData = {
       url: "https://elniu.dev/frontend/timelab/",
       repositoryUrl: "https://github.com/letjoel/TimeLab",
       technologies: ["HTML", "CSS", "JS"],
-      image: "https://elniu.dev/assets/images/projects/project3-duo-yellow.png",
+      image: "/assets/images/projects/project3-duo-yellow.png",
     },
     {
       _id: "4",
       name: "InfoAD",
       displayName: "InfoAD",
       description:
-        "Daily activity report for a PSAP. App connected to a DB. User authentification. Queries by date and file xport ",
+        "Daily activity report for a PSAP. It's made with PHP, MYSQL and HTML/CSS.",
       url: "https://infoad.up.railway.app/",
       repositoryUrl: "https://github.com/letjoel/infoAD",
       technologies: ["HTML", "CSS", "PHP", "MYSQL"],
-      image: "https://elniu.dev/assets/images/projects/project4-duo-yellow.png",
+      image: "/assets/images/projects/project4-duo-yellow.png",
     },
     {
       _id: "5",
@@ -51,18 +51,17 @@ export const localData = {
       url: "https://spacejam-marketplace.github.io/space-jump/",
       repositoryUrl: "https://github.com/spacejam-marketplace/space-jump",
       technologies: ["HTML", "CSS", "JS"],
-      image: "https://elniu.dev/assets/images/projects/project5-duo-yellow.png",
+      image: "/assets/images/projects/project5-duo-yellow.png",
     },
     {
       _id: "6",
       name: "Wheel of doom",
       displayName: "Wheel of doom",
-      description:
-        "A game to randomly duel against a list of enemies. It uses localstorage.",
+      description: "A game to randomly duel against a list of enemies.",
       url: "https://letjoel.github.io/jokersgame/",
       repositoryUrl: "https://github.com/letjoel/jokersgame",
       technologies: ["HTML", "CSS", "JS"],
-      image: "https://elniu.dev/assets/images/projects/project6-duo-yellow.png",
+      image: "/assets/images/projects/project6-duo-yellow.png",
     },
     {
       _id: "7",
@@ -73,7 +72,7 @@ export const localData = {
       url: "https://casaruralahora.com",
       repositoryUrl: "#",
       technologies: ["HTML", "CSS", "WORDPRESS", "PHP"],
-      image: "https://elniu.dev/assets/images/projects/project7-duo-yellow.png",
+      image: "/assets/images/projects/project7-duo-yellow.png",
     },
     {
       _id: "8",
@@ -83,7 +82,7 @@ export const localData = {
       url: "https://chat-socketio.up.railway.app/",
       repositoryUrl: "https://github.com/letjoel/chat-socketio",
       technologies: ["SOCKETIO", "NODEJS", "HTML", "CSS"],
-      image: "https://elniu.dev/assets/images/projects/project8-duo-yellow.png",
+      image: "/assets/images/projects/project8-duo-yellow.png",
     },
     {
       _id: "9",
@@ -94,19 +93,18 @@ export const localData = {
       url: "https://elniu.dev",
       repositoryUrl: "https://github.com/letjoel/mysite",
       technologies: ["JS", "HTML", "CSS", "NODEJS", "MONGODB"],
-      image: "https://elniu.dev/assets/images/projects/project9-duo-yellow.png",
+      image: "/assets/images/projects/project9-duo-yellow.png",
     },
     {
       _id: "10",
       name: "Rest API",
       displayName: "Rest API",
       description:
-        "API developed with NestJs, TypeScript, Swagger and MongoDB. User auth by roles and custom decorators.",
+        "API developed with NestJs, TypeScript, Swagger and MongoDB.",
       url: "https://blackbackersrecette.up.railway.app/",
       repositoryUrl: "https://github.com/letjoel/api_social-recipies",
       technologies: ["NESTJS", "TYPESCRIPT", "MONGODB"],
-      image:
-        "https://elniu.dev/assets/images/projects/project10-duo-yellow.png",
+      image: "/assets/images/projects/project10-duo-yellow.png",
     },
     {
       _id: "11",
@@ -116,20 +114,18 @@ export const localData = {
       url: "https://react-to-do-beta.vercel.app/",
       repositoryUrl: "https://github.com/letjoel/react-soundwave",
       technologies: ["REACT", "TYPESCRIPT", "CSS"],
-      image:
-        "https://elniu.dev/assets/images/projects/project11-duo-yellow.png",
+      image: "/assets/images/projects/project11-duo-yellow.png",
     },
     {
       _id: "12",
-      name: "React Soundwave",
-      displayName: "React Soundwave",
+      name: "Soundwave",
+      displayName: "Soundwave",
       description:
         "React SPA styled with css modules and Material UI. Mockup layout provided.",
       url: "https://react-soundwave.netlify.app/",
       repositoryUrl: "https://github.com/letjoel/react-soundwave/tree/mui",
       technologies: ["REACT", "TYPESCRIPT", "CSS", "MATERIALUI"],
-      image:
-        "https://elniu.dev/assets/images/projects/project12-duo-yellow.png",
+      image: "/assets/images/projects/project12-duo-yellow.png",
     },
     {
       _id: "13",
@@ -139,8 +135,7 @@ export const localData = {
       url: "https://realdreamvoices.vercel.app/",
       repositoryUrl: "https://github.com/24teamhackaton/marketplace",
       technologies: ["REACT", "CSS"],
-      image:
-        "https://elniu.dev/assets/images/projects/project13-duo-yellow.png",
+      image: "/assets/images/projects/project13-duo-yellow.png",
     },
     {
       _id: "14",
@@ -151,8 +146,7 @@ export const localData = {
       url: "https://imagineation.netlify.app/",
       repositoryUrl: "https://github.com/letjoel/front-myimages#readme",
       technologies: ["REACT", "NESTJS", "TYPESCRIPT", "MONGODB", "CSS"],
-      image:
-        "https://elniu.dev/assets/images/projects/project14-duo-yellow.png",
+      image: "/assets/images/projects/project14-duo-yellow.png",
     },
     {
       _id: "15",
@@ -169,8 +163,7 @@ export const localData = {
         "MYSQL",
         "CSS",
       ],
-      image:
-        "https://elniu.dev/assets/images/projects/project15-duo-yellow.png",
+      image: "/assets/images/projects/project15-duo-yellow.png",
     },
     {
       _id: "16",
@@ -182,8 +175,35 @@ export const localData = {
       repositoryUrl:
         "https://github.com/letjoel/front-recette-social-bonappetit#readme",
       technologies: ["REACT", "TAILWIND", "NESTJS", "TYPESCRIPT", "MONGODB"],
-      image:
-        "https://elniu.dev/assets/images/projects/project16-duo-yellow.png",
+      image: "/assets/images/projects/project16-duo-yellow.png",
+    },
+    {
+      _id: "17",
+      name: "Real State Company",
+      displayName: "Real State Company",
+      description:
+        "Real State site with a headless CMS. Next js, TailwindCSS, Hygraph CMS, GraphQL.",
+      url: "",
+      repositoryUrl: "",
+      technologies: ["NEXTJS", "TAILWIND", "TYPESCRIPT", "GRAPHQL"],
+      image: "/assets/images/projects/project17-duo-yellow.png",
+    },
+    {
+      _id: "18",
+      name: "ERP Dashboard and Webapp",
+      displayName: "ERP Dashboard and Webapp",
+      description:
+        "ERP Dashboard and Webapp for a USA company. React, TailwindCSS, Express, Postgres, GraphQL.",
+      url: "",
+      repositoryUrl: "",
+      technologies: [
+        "REACT",
+        "TAILWIND",
+        "TYPESCRIPT",
+        "GRAPHQL",
+        "POSTGRESQL",
+      ],
+      image: "/assets/images/projects/project18-duo-yellow.png",
     },
   ],
 };
