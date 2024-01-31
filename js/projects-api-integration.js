@@ -83,8 +83,8 @@ const renderProject = (project) => {
                         ${deployImg}
                     </div>
                 </div>
-                <a class="project__img__filter" href="${url}" target="_blank"><img src="${image}"
-                        alt="project screenshot"></a>
+                <div class="project__img__filter"><img src="${image}"
+                        alt="project screenshot"></div>
                 <div class="project__footer">
                     <p>${description}</p>
                     <div class="project__footer__techs">
