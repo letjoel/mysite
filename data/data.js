@@ -205,5 +205,16 @@ export const localData = {
       ],
       image: "/assets/images/projects/project18-duo-yellow.png",
     },
+    {
+      _id: "19",
+      name: "Finance Investment Site",
+      displayName: "Finance Investment Site",
+      description:
+        "Finance investment site with Blog, Graphs and Resources. Nextjs, TailwindCSS, Hygraph CMS, GraphQL.",
+      url: "",
+      repositoryUrl: "",
+      technologies: ["NEXTJS", "TAILWIND", "TYPESCRIPT", "GRAPHQL"],
+      image: "/assets/images/projects/project19-duo-yellow.png",
+    },
   ],
 };
